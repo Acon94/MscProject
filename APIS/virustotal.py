@@ -28,7 +28,7 @@ if vertices_array is not None:
 else:
     print("An error has occoured")
 
-params = {'apikey': '78cf33b2cd7327398c545a2e9901fdfaf69b213662155f5b03732c195f3356fb', 'resource':decoded_url}
+params = {'apikey': 'KEY_HERE', 'resource':decoded_url}
 
 response = requests.get(url, params=params)
 
