@@ -22,7 +22,7 @@ else:
 
 
 
-api_key = 'AIzaSyAfzCozaEx9g9XX0rhAWXdVkezajUH-sCE'
+api_key = 'KEY_HERE'
 url = "https://safebrowsing.googleapis.com/v4/threatMatches:find"
 payload = {'client': {'clientId': "mycompany", 'clientVersion': "0.1"},
         'threatInfo': {'threatTypes': ["THREAT_TYPE_UNSPECIFIED","SOCIAL_ENGINEERING", "MALWARE","UNWANTED_SOFTWARE","POTENTIALLY_HARMFUL_APPLICATION"],
