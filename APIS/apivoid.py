@@ -27,7 +27,7 @@ else:
     print("An error has occoured")
 
 
-apivoid_key = "840635313ddc47cbcb70197a3d61676e09cf6347";
+apivoid_key = "KEY_HERE";
 
 try:
    url = decoded_url;
