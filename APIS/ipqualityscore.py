@@ -23,7 +23,7 @@ encoded_decoded_url = urllib.parse.quote(decoded_url, safe='')
 print(encoded_decoded_url)
 
 
-r = requests.post("https://ipqualityscore.com/api/json/url/ElxIiLjYc2A03SOF2zswrTuVxErNtIbG/"+encoded_decoded_url)
+r = requests.post("https://ipqualityscore.com/api/json/url/KEY_HERE/"+encoded_decoded_url)
 print(r.json())
 
 
