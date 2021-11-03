@@ -23,7 +23,7 @@ else:
 
 print("SUBMISSION STATUS")
 
-headers = {'API-Key':'0d990430-a76a-40fb-bded-a2cf26b2e156','Content-Type':'application/json'}
+headers = {'API-Key':'KEY_HERE','Content-Type':'application/json'}
 data = {"url": decoded_url, "visibility": "public"}
 response = requests.post('https://urlscan.io/api/v1/scan/',headers=headers, data=json.dumps(data))
 
